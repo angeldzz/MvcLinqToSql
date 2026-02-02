@@ -31,5 +31,6 @@ namespace MvcLinqToSql.Controllers
             int registros = await this.repo.DeleteEmpleado(inscripcion);
             return RedirectToAction("Index");
         }
+        
     }
 }
